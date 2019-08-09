@@ -97,10 +97,10 @@ nav {
   top: 40px;
   left: -32px;
   white-space: nowrap;
+  overflow: hidden;
+  border: 1px black solid;
   background: #fff;
   color: #000;
-  border: 1px black solid;
-  overflow: hidden;
   font-weight: 100;
   padding: 10px 0;
 }
@@ -114,13 +114,11 @@ nav {
   display: block;
 }
 
-
 /* Main */
 
 main {
   font-family: Arial, Helvetica, sans-serif
 }
-
 
 /* Copy-intro */
 
