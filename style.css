@@ -161,10 +161,11 @@ h1 {
 .heading-box {
   font-size: 30px;
   color: rgb(241,108,32);
-  border-bottom: 8px solid rgb(82,82,82);
+  border-bottom: 8px solid rgb(88,88,88);
   font-family: sans-serif;
   text-transform: uppercase;
   padding: 10px 0;
+  margin-bottom: 25px;
 }
 
 /* Contact Us */
@@ -174,8 +175,78 @@ h1 {
   float: left;
 }
 
+.form-input {
+  border: 1px solid rgb(237, 237, 237);
+  background: rgb(246,246,246);
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  padding: 10px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.phone-and-email {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#phone {
+  width: 49%;
+}
+
+#email {
+  width: 49%;
+}
+
+.form-input > textarea {
+  height: 150px;
+}
+
+.submit {
+  margin-top: 10px;
+  background: rgb(241, 108, 32);
+  padding: 15px 25px;
+  color: #fff;
+  font-weight: 700;
+}
+
 /* Reach Us */
 .reach-us {
   width: 45%;
   float: right;
+}
+
+.reach-text {
+  margin-bottom: 10px;
+  color: rgb(88,88,88);
+}
+
+.cst {
+  font-size: 20px;
+}
+
+.address {
+  margin-bottom: 25px;
+}
+
+.social-media {
+  padding-top: 80px;
+}
+
+.fab {
+  background: rgb(208, 208, 208);
+  color: #fff;
+  padding: 10px;
+}
+
+.fab:hover {
+  background: rgb(54, 54, 54);
+}
+
+.fa-facebook-f {
+  padding: 10px 14px;
 }
